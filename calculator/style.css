@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {background-color: red;
+  padding: 50px;
+  alignment-baseline: central;
+    background: linear-gradient(to top left, #3399ff 21%, #ff66ff 75%);
+}
+
+
+/*style for the calculator body*/
+
+.calculator {
+  width: 400px;
+  background-color: black;
+  color: white;
+  margin-right: auto;
+  margin-left:auto;
+  border-style: solid;
+
+}
+
+
+.screen {border-bottom: solid;
+  background-color: black;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+  padding: 20px 5px;
+  color: white;
+  word-wrap: break-word;
+}
+
+.button_row {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+
+/*style for insdividual buttons features*/
+.button_feature {
+  background-color: #11018;
+  color: black;
+  height: 100px;
+  width: 24.5%;
+  border: none;
+  border-radius: 0;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/*effects on moving and clicking over buttons*/
+
+.button_feature:hover{
+
+  background-color:  #99ffcc;
+}
+
+.button_feature:active{
+
+  background-color:  #e6e600;
+}
+
+
+
+/*style for increasing the width of button 0*/
+
+.double{width: 49.5%;}
+
+
+.symbol{
+
+  background-color:  #00ff00;
+}

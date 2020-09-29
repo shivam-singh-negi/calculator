@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MY CALCULATOR
+</title> 
+<link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+
+<div class="calculator">
+	
+<section class="screen">0</section>
+		   <!--representing screen for outputs-->
+
+
+
+
+<section class="calc_row">        
+   <!--starting of button layout-->
+		   <!-- buttons representing the operators +,-,*,/ are defined as symbol in their class names -->
+
+<div class= "button_row"> 
+	   <!--first button row-->
+
+<button  class="button_feature" onclick="process(event)" >C</button>
+<button class="button_feature"  onclick="process(event)" ><-</button>
+<button class="button_feature" onclick="process(event)" >00</button>
+<button class="button_feature symbol" onclick="process(event)"> / </button>
+</div>
+
+<div class= "button_row">
+		   <!--second button row-->
+
+<button class="button_feature" onclick="process(event)" >9</button>
+<button class="button_feature" onclick="process(event)" >8</button>
+<button class="button_feature" onclick="process(event)">7</button>
+<button class="button_feature symbol" onclick="process(event)" >*</button>
+</div>
+
+<div class= "button_row">
+		   <!--third button row-->
+
+<button  class="button_feature" onclick="process(event)" >6</button>
+<button class="button_feature" onclick="process(event)">5</button>
+<button   class="button_feature" onclick="process(event)">4</button>
+<button class="button_feature symbol" onclick="process(event)" >-</button>
+</div>
+
+<div class= "button_row">
+		<!--fourth button row-->
+
+<button  class="button_feature" onclick="process(event)">3</button>
+<button  class="button_feature" onclick="process(event)" >2</button>
+<button  class="button_feature" onclick="process(event)" >1</button>
+<button class="button_feature symbol " onclick="process(event)">+</button>
+</div>
+
+<div class= "button_row">
+		 <!--fifth button row-->
+
+<button   class="button_feature double" onclick="process(event)">0</button> <!--included double in the class name to increase width of button 0-->
+
+<button  class="button_feature double symbol" onclick="process(event)">=</button>
+
+</div>
+</section>
+
+</div>
+
+
+  <script src="cal.js"></script>
+
+</body>
+</html>
